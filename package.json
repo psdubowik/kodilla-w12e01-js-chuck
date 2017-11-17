@@ -1,0 +1,24 @@
+{
+    "name": "kodillaFE_week12ex01_js_chuck",
+    "version": "1.0.0",
+    "description": "How to generate random quotes using API",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/psdubowik/kodilla-w12e01-js-chuck.git"
+    },
+    "keywords": [
+      "javascript",
+      "api"
+    ],
+    "author": "PSD",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/psdubowik/kodilla-w12e01-js-chuck/issues"
+    },
+    "homepage": "https://github.com/psdubowik/kodilla-w12e01-js-chuck#readme"
+  }
+  
