@@ -13,8 +13,10 @@ function getJoke(){
     xhr.addEventListener("load", function(){
         var response = JSON.parse(xhr.response);
 
-        if ("value" in response && "joke" in response.value) {
+        if ("value" in response && "joke" in response.value && response.value.joke != null) {
             paragraph.innerHTML = response.value.joke;
+        } else {
+            getJoke()
         };
     });
     xhr.send();
